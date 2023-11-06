@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tippy -->
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/themes/light.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
+    <!-- end tippy -->
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/adaptive.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div1" id="tr0">
+      <a href="#tr1" data-tippy-content="Tooltip">triger1</a>
+      <!-- <a href="#target" class="js-trigger" data-mt-duration="300">Trigger</a> -->
+    </div>
+    <div class="div2" id="tr1">
+      <button data-target="#tr2" data-tippy-content="Tooltip">triger2</button>
+    </div>
+    <div class="div3" id="tr2">
+        <a href="#tr0" data-tippy-content="Tooltip">triger0</a>
+    </div>
+
+    
+    
+    <!-- tippy -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <!-- end tippy -->
+    <!-- moveTo -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moveTo/1.8.2/moveTo.min.js"></script>
+    <!-- end moveTo -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./libs/wow.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
